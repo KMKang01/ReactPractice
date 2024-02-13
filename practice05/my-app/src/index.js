@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CommentList from './chap05/CommentList';
+import NotificationList from './chap06/NotificationList';
+import Accommodate from './chap07/Accommodate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <Accommodate />
   </React.StrictMode>
 );
 
