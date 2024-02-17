@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+//함수 컴포넌트에서 이벤트 처리 방법.
 function ConfirmButton3(props) {
   const [isConfirmed, setIsConfirmed] = useState(false);
 

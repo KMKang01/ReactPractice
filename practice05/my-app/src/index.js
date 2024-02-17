@@ -9,11 +9,14 @@ import Accommodate from './chap07/Accommodate';
 import ConfirmButton1 from './chap08/ConfirmButton1';
 import ConfirmButton2 from './chap08/ConfirmButton2';
 import ConfirmButton3 from './chap08/ConfirmButton3';
+import LandingPage from './chap09/LandingPage';
+import AttendanceBook from './chap10/AttendanceBook';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ConfirmButton3 />
+    <AttendanceBook />
   </React.StrictMode>
 );
 
