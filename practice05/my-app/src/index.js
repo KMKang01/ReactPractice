@@ -14,13 +14,14 @@ import AttendanceBook from './chap10/AttendanceBook';
 import SignUp1 from './chap11/SignUp1';
 import SignUp2 from './chap11/SingUp2';
 import Calculator from './chap12/Calculator';
+import ProfileCard from './chap13/ProfileCard';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <ProfileCard />
   </React.StrictMode>
 );
 
