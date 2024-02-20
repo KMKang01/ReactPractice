@@ -15,13 +15,15 @@ import SignUp1 from './chap11/SignUp1';
 import SignUp2 from './chap11/SingUp2';
 import Calculator from './chap12/Calculator';
 import ProfileCard from './chap13/ProfileCard';
+import DarkOrLight from './chap14/DarkOrLight';
+import MainPage from './chap15/MainPage';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ProfileCard />
+    <MainPage />
   </React.StrictMode>
 );
 
