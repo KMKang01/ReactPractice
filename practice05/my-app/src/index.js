@@ -17,13 +17,16 @@ import Calculator from './chap12/Calculator';
 import ProfileCard from './chap13/ProfileCard';
 import DarkOrLight from './chap14/DarkOrLight';
 import MainPage from './chap15/MainPage';
+import Sample from './chap15/sample';
+import Sample1 from './chap15/stylesample';
+import Blocks from './chap15/Blocks';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MainPage />
+    <Blocks />
   </React.StrictMode>
 );
 
